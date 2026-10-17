@@ -1,4 +1,9 @@
-
+# /// script
+# dependencies = [
+#     "prefect",
+#     "pandas",
+# ]
+# ///
 from prefect import flow, task, get_run_logger
 from datetime import datetime, timezone
 import pandas as pd
